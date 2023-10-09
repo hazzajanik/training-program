@@ -9,3 +9,6 @@ Multimodal Content Delivery: Effective training often utilizes various modes of 
 Assessment and Evaluation: Training projects include mechanisms for assessing participant progress and evaluating the effectiveness of the training. This may involve quizzes, exams, practical exercises, projects, peer assessments, or evaluations by trainers or instructors. Assessment data is used to measure learning outcomes and make necessary adjustments to the training program.
 
 Feedback and Improvement: Training projects encourage feedback loops. Participants are given opportunities to provide feedback on the training content, instructors, and overall experience. This feedback is invaluable for making continuous improvements to the training program, addressing participant concerns, and enhancing the learning experience.
+
+
+Project live Link : https://react-training-program-94240.web.app/
