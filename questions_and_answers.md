@@ -44,7 +44,7 @@ sum(1, "2");
 
 Answer: c
 
-<i>To fix this and ensure that a and b are treated as numbers, you should explicitly convert b to a number before performing the addition. You can use the parseInt or parseFloat function to achieve this. </i>
+<i>To fix this and ensure that a and b are treated as numbers, you should explicitly convert b to a number before performing the addition. You can use the parseInt or parseFloat function to achieve this.</i>
 
 </p>
 </details>

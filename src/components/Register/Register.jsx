@@ -6,24 +6,23 @@ import toast from "react-hot-toast";
 
 const Register = () => {
 
-    const {createUser} = useContext(AuthContext);
+    const { createUser } = useContext(AuthContext);
 
 
-    const hundleRegister = e =>{
+    const hundleRegister = e => {
         e.preventDefault();
-        
+
         const form = new FormData(e.currentTarget);
-        const name = form.get('name');
-        const phone = form.get('phone');
+
         const email = form.get('email');
         const password = form.get('password');
 
 
         // password validation --->
-        if(password.length < 6){
+        if (password.length < 6) {
             toast.error("Password should be 6 characters or longer");
             return;
-        }else if(!/[A-Z]/.test(password)){
+        } else if (!/[A-Z]/.test(password)) {
             toast.error("Password contains at least one uppercase letter.");
             return;
         }
@@ -34,15 +33,15 @@ const Register = () => {
 
 
         // create user
-        createUser(email,password)
-        .then(result =>{
-            
-            toast.success('Successfully Registered!')
-        })
-        .catch(error =>{
-            
-            toast.error("You are failed in Register!")
-        })
+        createUser(email, password)
+            .then(result => {
+
+                toast.success('Successfully Registered!')
+            })
+            .catch(error => {
+
+                toast.error("You are failed in Register!")
+            })
     }
 
     return (
@@ -58,13 +57,13 @@ const Register = () => {
                             <label className="label">
                                 <span className="label-text">Name</span>
                             </label>
-                            <input type="text" name="name" placeholder="Name" className="input input-bordered" required />
+                            <input type="text" name="displayName" placeholder="Name" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Phone</span>
                             </label>
-                            <input type="text" name="phone" placeholder="Number" className="input input-bordered" required />
+                            <input type="phone" name="phoneNumber" placeholder="Number" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">

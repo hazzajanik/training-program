@@ -8,6 +8,8 @@ import Register from "../components/Register/Register";
 import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import Blog from "../components/Blog/Blog";
+import ErrorPage from "../components/ErrorPage/ErrorPage";
+import Support from "../components/Support/Support";
 
 
 
@@ -15,6 +17,7 @@ const router = createBrowserRouter([
     {
         path: '/',
         element:<Root></Root>,
+        errorElement:<ErrorPage></ErrorPage>,
         children:[
             {
                 path: '/',
@@ -30,6 +33,10 @@ const router = createBrowserRouter([
             {
                 path:'/blog',
                 element: <PrivateRoute><Blog></Blog></PrivateRoute>
+            },
+            {
+                path:'/support',
+                element:<PrivateRoute><Support></Support></PrivateRoute>
             },
             {
                 path:'/service/:id',

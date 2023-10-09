@@ -10,6 +10,7 @@ const Navbar = () => {
 
 
     const { user, logOut } = useContext(AuthContext);
+    console.log(user)
 
 
     const hundleSignOut = () => {
@@ -57,6 +58,14 @@ const Navbar = () => {
         >
             Blog
         </NavLink></li>
+        <li><NavLink
+            to="/support"
+            className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "bg-purple-900 rounded-3xl text-white font-semibold" : ""
+            }
+        >
+            Support
+        </NavLink></li>
 
         <li><NavLink
             to="/login"
@@ -94,7 +103,10 @@ const Navbar = () => {
                     {
                         user ?
                             <div className="flex gap-2 items-center">
-                                <div><img className="w-10" src={userPic} alt="" /></div>
+                                <div className="flex items-center"><img className="w-10" src={userPic} alt="" />
+                                <p>{user.displayName}</p>
+                                <p>{user.email}</p>
+                                </div>
                                 <button onClick={hundleSignOut} className="btn bg-purple-900 rounded-3xl text-white font-semibold hover:bg-purple-600 ">Log Out</button>
                             </div>
                             :
