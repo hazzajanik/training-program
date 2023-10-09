@@ -68,9 +68,10 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+Answer: A
 
-<i>Write your explanation here</i>
+<i>The critical point to understand is that when the info.favoriteFood property is assigned the value "🍝", it doesn't affect the food array in any way. The food array remains unchanged, and the elements in the food array are not modified. Therefore, the correct answer is option A, which represents the original contents of the food array.
+</i>
 
 </p>
 </details>
