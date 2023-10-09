@@ -95,7 +95,7 @@ const Navbar = () => {
                         user ?
                             <div className="flex gap-2 items-center">
                                 <div><img className="w-10" src={userPic} alt="" /></div>
-                                <button onClick={hundleSignOut} className="btn bg-purple-900 rounded-3xl text-white font-semibold hover:bg-purple-600 ">Sign Out</button>
+                                <button onClick={hundleSignOut} className="btn bg-purple-900 rounded-3xl text-white font-semibold hover:bg-purple-600 ">Log Out</button>
                             </div>
                             :
                             <Link to='/login'>
