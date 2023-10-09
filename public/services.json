@@ -1,0 +1,45 @@
+[
+    {
+      "id": "1",
+      "name": "Equipment installation",
+      "image": "https://i.ibb.co/Wc8g8cc/s1.png",
+      "price": 59.99,
+      "description": "Trainees should become familiar with the equipment they are going to install. This includes understanding its components, functions, and specifications."
+    },
+    {
+      "id": "2",
+      "name": "Windmill Energy",
+      "image": "https://i.ibb.co/kX5q1JK/s2.png",
+      "price": 69.99,
+      "description": " Wind energy is considered a clean and environmentally friendly source of electricity because it produces no greenhouse gas emissions or air pollutants."
+    },
+    {
+      "id": "3",
+      "name": "Equipment Maintenance",
+      "image": "https://i.ibb.co/t25tPjB/s3.png",
+      "price": 79.99,
+      "description": "Trainees should be trained in the proper use of tools and equipment required for installation. This includes knowing how to use hand tools and power tools. "
+    },
+    {
+      "id": "4",
+      "name": "Offshore Engineering",
+      "image": "https://i.ibb.co/Vw18FSr/s4.png",
+      "price": 89.99,
+      "description": "Offshore engineering also encompasses the design of subsea pipelines, wellheads, and other infrastructure components that are placed on or below the seabed."
+    },
+    {
+      "id": "5",
+      "name": "Electrical Wiring",
+      "image": "https://i.ibb.co/tKvscbR/s5.png",
+      "price": 99.99,
+      "description": "These components are used to join conductors and devices together. Examples include wire nuts, terminal blocks, and electrical connectors."
+    },
+    {
+      "id": "6",
+      "name": "Safety Training",
+      "image": "https://i.ibb.co/r5N9TtD/slider-img.jpg",
+      "price": 109.99,
+      "description": " Safety training is not a one-time event. It encourages ongoing learning and improvement in safety practices."
+    }
+  ]
+  
