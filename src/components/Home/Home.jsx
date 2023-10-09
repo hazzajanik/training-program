@@ -3,9 +3,18 @@ import { useLoaderData } from 'react-router-dom';
 import ServiceCard from "../ServiceCard/ServiceCard";
 import pic from "../../assets/plug.png";
 import About from "../About/About";
+import Aos from "aos";
+import "aos/dist/aos.css"
+import { useEffect } from "react";
 
 
 const Home = () => {
+
+    useEffect(() => {
+        Aos.init();
+    },[])
+
+
     const services = useLoaderData();
     console.log(services)
 
