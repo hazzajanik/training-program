@@ -27,11 +27,10 @@ const Register = () => {
             toast.error("Password contains at least one uppercase letter.");
             return;
         }
-        // else if(!/[!@#$%^&*\\-=|]/.test(password)){
-        //     toast.error("Password does not contain any special character.");
-        //     return;
-        // }
-
+        else if (!(/[!@#$%^&*()+=-\?]/.test(password))) {
+            toast.error("Password contains at least one special character.");
+            return;
+        }
 
 
         // create user
