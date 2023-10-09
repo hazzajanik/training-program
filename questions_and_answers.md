@@ -14,12 +14,12 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>Answere </b></summary>
 <p>
 
-#### Answer: ?
+Answer: A
 
-<i>Write your explanation here</i>
+<i>This output represents an empty JavaScript object, which is enclosed in curly braces {}. The code successfully assigns an empty object to the greeting variable and then displays it in the console using console.log()</i>
 
 </p>
 </details>
@@ -42,9 +42,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+Answer: c
 
-<i>Write your explanation here</i>
+<i>To fix this and ensure that a and b are treated as numbers, you should explicitly convert b to a number before performing the addition. You can use the parseInt or parseFloat function to achieve this. </i>
 
 </p>
 </details>
@@ -93,9 +93,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+ Answer: B
 
-<i>Write your explanation here</i>
+<i>In the code you've provided, you've defined a function sayHi(name) that takes one parameter name and returns a greeting string. However, when you call the sayHi() function in console.log(sayHi());, you do not provide an argument for the name parameter. This will result in an error because the function expects a name argument.</i>
 
 </p>
 </details>
@@ -121,9 +121,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+ Answer: C
 
-<i>Write your explanation here</i>
+<i>The output is 3 because there are three truthy values (1, 2, and 3) in the nums array, and the count variable has been incremented for each of them.</i>
 
 </p>
 </details>
